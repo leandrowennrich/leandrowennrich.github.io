@@ -110,7 +110,7 @@ const questions = [
   },
 //#3
   {
-    question: 'Qual destes medicamentos não é um Antiinflamatório?',
+    question: 'Qual destes medicamentos não é um Anti-inflamatório?',
     answers: [
       { text: 'Nimesulida', correct: false },
       { text: 'Prednisona', correct: false },
