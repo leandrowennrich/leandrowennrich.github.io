@@ -162,60 +162,8 @@ const questions = [
     ]
   },
 //#6
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#7
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#8
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#9
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#10
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
+
+
 
 
 
