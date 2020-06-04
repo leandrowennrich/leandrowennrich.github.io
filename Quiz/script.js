@@ -206,7 +206,7 @@ const questions = [
   },
 //#4
   {
-    question: 'Paciente apresenta uma receita de Durateston (lista C5) emitida há 45 dias, nos podemos:',
+    question: 'Paciente apresenta uma receita de Durateston (lista C5) emitida há 45 dias, nós podemos:',
     answers: [
       { text: 'Vender o medicamento e a seringa, mas não aplicar.', correct: false },
       { text: 'Aplicar, desde que ele traga o medicamento.', correct: false },
