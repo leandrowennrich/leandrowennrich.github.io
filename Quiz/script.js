@@ -280,59 +280,16 @@ const questions = [
   },
 //#6
   {
-    question: '',
+    question: 'O receituário do tipo C2 corresponde a qual classe de medicamento? ',
     answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Ansiolíticos', correct: false },
+      { text: 'Opióides', correct: false },
+      { text: 'retinóicos', correct: true },
+      { text: 'Anorexígenos', correct: false },
+      { text: 'Antidepressivos', correct: false }
     ]
   },
-//#7
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#8
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#9
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#10
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
+
 
 
 
@@ -353,13 +310,13 @@ const questions = [
   },
 //#2
   {
-    question: '',
+    question: 'qual a afirmativa correta?',
     answers: [
-      { text: '', correct: false },
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
+      { text: 'Antihipertensivos são indicados para perda de peso.', correct: false },
+      { text: 'Ansiolíticos são indicados para diabetes tipo II.', correct: true },
+      { text: 'Analgésicos são todos controlados.', correct: false },
+      { text: 'Todo antialérgico da sono.', correct: false },
+      { text: 'Fluconazol e Cetoconazol pertencem a mesma classe.', correct: false }
     ]
   },
 //#3
@@ -374,82 +331,7 @@ const questions = [
     ]
   },
 //#4
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#5
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#6
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#7
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#8
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#9
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#10
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
+
 
 
 
@@ -458,113 +340,15 @@ const questions = [
 
 
 // #1
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#2
-  {
-    question: '',
-    answers: [
-      { text: '', correct: false },
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#3
-  {
-    question: '',
-    answers: [
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: true },
-      { text: '', correct: false }
-    ]
-  },
-//#4
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#5
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#6
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#7
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#8
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#9
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  },
-//#10
-  {
-    question: '',
-    answers: [
-      { text: '', correct: true },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false },
-      { text: '', correct: false }
-    ]
-  }
+
+//  {
+//    question: '',
+//    answers: [
+//      { text: '', correct: true },
+//      { text: '', correct: false },
+//      { text: '', correct: false },
+//      { text: '', correct: false },
+//      { text: '', correct: false }
+//    ]
+//  }
 ]
