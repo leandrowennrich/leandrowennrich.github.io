@@ -173,7 +173,7 @@ const questions = [
 
 // #1
   {
-    question: 'Qual destas propriedades não pertence ao receituário B?',
+    question: 'Qual destas propriedades pertence ao receituário B?',
     answers: [
       { text: 'Validade: 10 dias, Tratamento: 30 dias, Tarja: vermelha', correct: false },
       { text: 'Validade: 60 dias, Tratamento: 60 dias, Tarja: preta', correct: false },
