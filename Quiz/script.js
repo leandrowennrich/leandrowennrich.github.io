@@ -261,17 +261,17 @@ const questions = [
     question: 'qual a afirmativa correta?',
     answers: [
       { text: 'Antihipertensivos são indicados para perda de peso.', correct: false },
-      { text: 'Ansiolíticos são indicados para diabetes tipo II.', correct: true },
+      { text: 'Ansiolíticos são indicados para diabetes tipo II.', correct: false },
       { text: 'Analgésicos são todos controlados.', correct: false },
       { text: 'Todo antialérgico da sono.', correct: false },
-      { text: 'Fluconazol e Cetoconazol pertencem a mesma classe.', correct: false }
+      { text: 'Fluconazol e Cetoconazol pertencem a mesma classe.', correct: true }
     ]
   },
 //#3
   {
     question: 'Qual destes medicamentos não é um Anti-inflamatório?',
     answers: [
-      { text: 'Dicloenaco', correct: false },
+      { text: 'Diclofenaco', correct: false },
       { text: 'Nimesulida', correct: false },
       { text: 'Prednisona', correct: false },
       { text: 'Cetotifeno', correct: true },
@@ -287,16 +287,5 @@ const questions = [
 
 
 
-// #1
 
-//  {
-//    question: '',
-//    answers: [
-//      { text: '', correct: true },
-//      { text: '', correct: false },
-//      { text: '', correct: false },
-//      { text: '', correct: false },
-//      { text: '', correct: false }
-//    ]
-//  }
 ]
