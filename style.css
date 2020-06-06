@@ -1,0 +1,42 @@
+* {
+  align-items: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #40739e;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  background-color: #123123;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.footer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: black;
+  color: orange;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 1.7rem;
+}
