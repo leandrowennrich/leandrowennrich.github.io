@@ -1,0 +1,147 @@
+    *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ 
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b62a2;
+}
+
+.container {
+  align-self: center;
+  max-width: 99vw;
+  margin-bottom: 75px;
+  min-height: 70vh;
+  max-height: 90vh;
+  align-items: center;
+  border: none;
+  padding: 10px;
+  font-size: 1,6rem;
+}
+
+.teste {
+  width: 80vw;
+  padding: 15px;
+  background-color: #efefef;
+  grid-gap: 15px;
+  margin: 20px 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1756ad;
+  border-radius: 10px;
+  box-shadow: 0 0 1em 0.5em #1756ad;
+
+}
+
+
+.questions {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: #000;
+    word-wrap: break-word;
+}
+
+.btn {
+  width: 75vw;
+  border: 2px solid #aaaaaa;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px 10px;
+  color: black;
+  outline: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #003c91;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+.accordion-button {
+  width: 100%;
+  max-width: 90vw;
+  border: 2px solid #aaaaaa;
+  outline: none;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button.accordion-button:active{
+  background-color: #95a5a6;
+}
+
+button.back-btn:active{
+  background-color: #95a5a6;
+}
+
+.answer {
+  max-width: 90vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  word-wrap: break-word;
+  margin-left: 2px;
+}
+
+p {
+
+  background-color: white;
+  border: 1px solid #aaaaaa;
+  margin-left: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 1px;
+  font-size: 1.1rem
+}
+
+.teste2 {
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 75px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #1756ad;
+  border-radius: 10px;
+  box-shadow: 0 0 1em 0.5em #1756ad;
+}
+
+.hide {
+  display: none;
+}
