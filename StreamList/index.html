@@ -20,8 +20,14 @@
 						<input type="text" name="title" id="titulo" class="form-control">
 					</div>
 					<div class="form-group">
-						<label for="autor">Onde</label>
-						<input type="text" name="autor" id="autor" class="form-control">
+						<label for="stream">Stream</label>
+						<select id="stream" name="stream" class="form-control">
+							<option value="Netflix">Netflix</option>
+							<option value="Amazon">Amazon</option>
+							<option value="Telecine">Telecine</option>
+							<option value="HBO">HBO</option>
+							<option value="Disney+">Disney+</option>
+						  </select>
 					</div>
 					<input type="submit" value="Adicionar!" class="btn btn-primary btn-block">
 				</form>
@@ -30,7 +36,8 @@
 				<thead>
 					<tr>
 						<th>Nome</th>
-						<th>Onde</th>
+						<th>Stream</th>
+						<th> </th>
 					</tr>
 				</thead>
 				<tbody id="book-list"></tbody>

@@ -1,7 +1,7 @@
 class Book {
-	constructor(titulo, autor) {
+	constructor(titulo, stream) {
 		this.titulo = titulo;
-		this.autor = autor;
+		this.stream = stream;
 	}
 }
 
@@ -17,7 +17,7 @@ class UI {
 
 		row.innerHTML = `
 			<td>${book.titulo}</td>
-			<td>${book.autor}</td>
+			<td>${book.stream}</td>
 			<td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
 		`;
 
@@ -43,7 +43,7 @@ class UI {
 
 	static clearFields(){
 		document.querySelector('#titulo').value ='';
-		document.querySelector('#autor').value = '';
+		document.querySelector('#stream').value = '';
 	}
 }
 
@@ -65,11 +65,11 @@ class Store {
 		localStorage.setItem('books', JSON.stringify(books));
 	}
 
-	static removeBook(autor) {
+	static removeBook(stream) {
 		const books = Store.getBooks();
 
 		books.forEach((book, index) => {
-			if(book.autor === autor) {
+			if(book.stream === stream) {
 				books.splice(index, 1);
 			}
 		});
@@ -83,12 +83,12 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const titulo = document.querySelector('#titulo').value;
-	const autor = document.querySelector('#autor').value;
+	const stream = document.querySelector('#stream').value;
 
-	if(titulo === '' || autor === '') {
+	if(titulo === '' || stream === '') {
 		UI.showAlert('Preencha todos os campos !!!', 'danger');
 	} else {
-		const book = new Book(titulo, autor);
+		const book = new Book(titulo, stream);
 		UI.addBookToList(book);
 		Store.addBook(book);
 		UI.showAlert('Título Adicionado', 'success');
