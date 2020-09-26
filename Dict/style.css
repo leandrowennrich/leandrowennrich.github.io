@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+input {
+  padding: 8px;
+  border: black solid 1px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.container {
+  margin: 0;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 95vw;
+  height: 90vh;
+  background-color: rgba(161, 161, 161, 0.493);
+  justify-content: center;
+}
+
+.search-box {
+  background-color: rgb(63, 99, 40);
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: #321 solid 2px;
+  border-radius: 10px;
+}
+
+.answer {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  background-color: rgb(41, 30, 88);
+  color: #999;
+  padding: 10px;
+  border-bottom: #321 solid 2px;
+  border-radius: 10px;
+}
