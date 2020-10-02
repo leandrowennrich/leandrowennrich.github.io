@@ -5,9 +5,11 @@ searchBox.addEventListener("keyup", searchInput);
 
 function searchInput() {
   const dictionary = {
-    HTTP: "Hyper Text Tranfer Protocol",
+    HTTP: "HyperText Transfer Protocol",
     XML: "eXtesible Markup Language",
     HTTPS: "Hyper Text Tranfer Protocol secure",
+    URL: "Uniform Resource Locator"
+
   };
   var inputText = searchBox.value.toUpperCase();
   var pro = dictionary[inputText];
