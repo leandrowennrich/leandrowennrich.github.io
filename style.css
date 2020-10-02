@@ -1,6 +1,7 @@
-* {
-  align-items: center;
+*:focus{
+  outline: none;
 }
+
 
 body {
   padding: 0;
@@ -15,28 +16,37 @@ body {
 
 .container {
   display: flex;
-  width: 80vw;
-  height: 80vh;
-  background-color: #123123;
+  width: 100vw;
+  height: 100vh;
+  background-color: #36af79;
   position: relative;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .btn {
-  width: 100px;
-  height: 50px;
-  font-size: 1.5rem;
+  margin: 10px;
+  width: 200px;
+  height: 80px;
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1.7rem;
 }
+
+
 
 .footer{
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100vw;
   background-color: black;
-  color: orange;
+  color: rgb(55, 226, 63);
   text-align: center;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 1.7rem;
+  margin: 0;
 }
