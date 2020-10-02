@@ -1,6 +1,10 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body {
   display: flex;
-  background-color: #333;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
 }
@@ -15,32 +19,43 @@ input {
   border: black solid 1px;
   border-radius: 10px;
   margin: 5px;
+  font-size: 1.2rem;
+  text-align: center;
 }
+
+input:focus {
+  outline: none;
+}
+
 .container {
   margin: 0;
   padding: 10px;
-  border: 2px solid black;
+  border: 1px solid #999;
+  box-shadow: 0px 0px 10px 2px  #999;
   border-radius: 10px;
   width: 95vw;
   height: 90vh;
-  background-color: rgba(161, 161, 161, 0.493);
+  background-color: rgb(247, 240, 240);
   justify-content: center;
 }
 
 .search-box {
-  background-color: rgb(63, 99, 40);
+  background-color: rgb(59, 102, 243);
   text-align: center;
   padding-bottom: 20px;
-  border-bottom: #321 solid 2px;
+  border-bottom: #999 solid 2px;
   border-radius: 10px;
+  color: white;
 }
 
 .answer {
   font-size: 0.8rem;
   margin-top: 10px;
-  background-color: rgb(41, 30, 88);
-  color: #999;
+  background-color: #fff;
+  color: rgb(59, 102, 243);
   padding: 10px;
-  border-bottom: #321 solid 2px;
+  border-bottom: #999 solid 2px;
   border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
 }

@@ -7,8 +7,11 @@ function searchInput() {
   const dictionary = {
     HTTP: "HyperText Transfer Protocol",
     XML: "eXtesible Markup Language",
-    HTTPS: "Hyper Text Tranfer Protocol secure",
-    URL: "Uniform Resource Locator"
+    HTTPS: "Hyper Text Tranfer Protocol Secure",
+    URL: "Uniform Resource Locator",
+    DNS: "Domain Name System",
+    OOP: "Object Oriented Programming",
+    HTML: "HyperText Markup Language",
 
   };
   var inputText = searchBox.value.toUpperCase();
