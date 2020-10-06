@@ -12,12 +12,17 @@ function searchInput() {
     DNS: "Domain Name System",
     OOP: "Object Oriented Programming",
     HTML: "HyperText Markup Language",
-
+    GUI: "graphical User Interface",
+    CPU: "Central Processing Unit",
+    GPU: "Graphics Processing Unit",
+    RAM: "Random Access Memory",
+    APU: "Accelerated Processing Unit",
+    CSS: "Cascading Style sheets",
   };
   var inputText = searchBox.value.toUpperCase();
-  var pro = dictionary[inputText];
+  var description = dictionary[inputText];
   if (inputText in dictionary) {
-    answerItem.innerText = pro;
+    answerItem.innerText = description;
   } else {
     answerItem.innerText = "I Don't Know...";
   }
