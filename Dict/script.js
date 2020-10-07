@@ -12,15 +12,25 @@ function searchInput() {
     DNS: "Domain Name System",
     OOP: "Object Oriented Programming",
     HTML: "HyperText Markup Language",
-    GUI: "graphical User Interface",
+    GUI: "Graphical User Interface",
     CPU: "Central Processing Unit",
     GPU: "Graphics Processing Unit",
     RAM: "Random Access Memory",
     APU: "Accelerated Processing Unit",
     CSS: "Cascading Style sheets",
+    ROM: "Read-Only Memory",
+    API: "Application Programming Interface",
+    UX: "User Experience",
+    UI: "User Interface",
+    DOM: "Document Object Model",
+    JPG: "Joint Photographic Group",
+    PNG: "Portable Network Graphics",
+    WWW: "World Wide Web",
   };
   var inputText = searchBox.value.toUpperCase();
   var description = dictionary[inputText];
+
+
   if (inputText in dictionary) {
     answerItem.innerText = description;
   } else {
