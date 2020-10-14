@@ -26,6 +26,9 @@ function searchInput() {
     JPG: "Joint Photographic Group",
     PNG: "Portable Network Graphics",
     WWW: "World Wide Web",
+    FTP: "File Transfer Protocol",
+    TCP: "Transmission Control Protocol",
+    IP: "Internet Protocol",
   };
   var inputText = searchBox.value.toUpperCase();
   var description = dictionary[inputText];
