@@ -51,3 +51,18 @@ valor_litro = salario * 0.02 / 1000
 valor_conta = qtde_agua * valor_litro
 print("O valor a ser pago: R$", valor_conta)
 """
+"""
+v1 = input()
+v2 = input()
+
+v3 = v2
+v2 = v1
+v1 = v3
+
+print(v1, v2)
+"""
+
+a = int(input("Escreva uma Número: "))
+b = int(input("Escreva outro Número: "))
+sum = a + b
+print(f"A soma é: {sum}")
